@@ -1,0 +1,34 @@
+
+p 
+{
+  align-self: center;
+  margin: 0;
+}
+
+p
+{
+  text-align: center;
+  margin: 0.25em 0;
+}
+
+.Main {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.Order {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.underline:active
+{
+  color: rgb(0, 54, 155);
+}
