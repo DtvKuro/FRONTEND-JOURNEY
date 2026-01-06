@@ -1,0 +1,11 @@
+  
+  .yes, .no
+  {
+    display: inline-block;
+    vertical-align: middle;}
+  .parag
+  {
+    width: 210px; 
+    display: inline-block; 
+    vertical-align: middle;
+  }
