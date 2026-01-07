@@ -1,0 +1,47 @@
+*{font-family: Arial;}
+button, input
+{
+  margin: 0;
+  background-color: rgb(228, 228, 233)
+}
+.header
+{
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+input
+{
+  display: block;
+  font-size: 15px;
+  border: none;
+  margin-bottom: 5px;
+  padding: 7px 12px; 
+  width: 280px;
+  border-radius: 3px;
+}
+button
+{
+  border: none;
+  margin-top: 20px;
+  margin-right: 12px;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.req-btn:hover
+{
+  opacity: .7;
+}
+.req-btn
+{
+  background-color: black;
+  color: white;
+}
+
+.sched-btn:hover
+{
+  background-color:rgb(192, 192, 192);
+}
