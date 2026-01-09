@@ -1,0 +1,14 @@
+.survey{
+  border: 2px solid rgb(185, 185, 185);
+  height: 100px;
+  width: 300px;
+  padding-left: 18px;
+}
+.ask{
+  font-family: Arial;
+  font-size: 19px;
+  font-weight: bold;
+  width: 300px;
+  display: block;
+  margin-bottom: 10px;
+}
