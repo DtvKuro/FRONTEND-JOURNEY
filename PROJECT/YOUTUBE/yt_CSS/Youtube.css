@@ -1,11 +1,15 @@
 * {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial;
 }
 
 body {
   margin: 16px;
   color: #111;
+}
+
+p{
+  margin: 0;
 }
 
 .search-btn {
@@ -16,7 +20,7 @@ body {
 
 }
 .video {
-  width: 300px;
+  width: 355px;
   display: inline-block;
   vertical-align: top;
   cursor: pointer;
@@ -37,23 +41,30 @@ body {
   width: 100%;
   display: inline-block;
   align-items: top;
+  padding-top: 10px;
 }
 
 .channel-avatar {
-  width: 40px;
+  width: 100%;
   border-radius: 100%;
+}
+.channel-avatar-div{
   display: inline-block;
   vertical-align: top;
+  width: 50px;
 }
 
 .video-info {
   display: inline-block;
-  width: 250px;
+  width: 70%;
+  padding: 0 10px;
 }
 
 .video-title {
-  margin: 0 0 4px 0;
-  font-size: 16px;
+  margin: 0 0 4px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
 }
 
 .video-creator,

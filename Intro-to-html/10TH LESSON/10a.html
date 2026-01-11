@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>10a exerise</title>
+    <link rel="stylesheet" href="../CSS/10a.css">
+
+    <style>
+
+      *{
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .account-div{
+        margin: 10px 10px;
+        width: 300px;
+        box-shadow: 0 0 4px rgb(165, 165, 165);
+        padding: 15px 10px;
+        border-radius: 10px;
+        
+      }
+
+      .pf-div{
+        width: 50px;   
+        height: 50px;
+        border-radius: 100%;
+        display: inline-block;
+      }
+      .pf{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 100%;
+        cursor: pointer;
+      }
+
+
+      .info-div{
+        display: inline-block;
+        margin-left: 10px;
+        vertical-align: top;
+      }
+      .name{
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .user{
+        font-size: 14px;
+        color: gray;
+      }
+      .class{
+        margin-top: 4px;
+        font-size: 13px;
+        color: gray;
+      }
+
+      .follow-div{
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 50px;
+        margin-top: 14px;
+  
+      }   
+
+      .follow {
+        background-color: #1d9bf0;
+        color: white;
+        border: none;
+        padding: 6px 14px;
+        border-radius: 15px;
+        font-size: 13px;
+        cursor: pointer;
+        transition: opacity 0.2s;
+      }
+      .follow:hover{
+        opacity: 0.8;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="account-div">
+      <div class="pf-div">
+        <img class="pf" src="../IMAGES/Cristelry.jpg">
+      </div>
+      <div class="info-div">
+        <div class="name-div">
+          <p class="name">
+            Cristelry Jhane
+          </p>
+        </div>
+        <div class="user-div">
+          <p class="user">
+            eulyuyae
+          </p>
+        </div>
+        <div class="class-div">
+          <p class="class"> 
+            Musician
+          </p>
+        </div>
+      </div>
+      <div class="follow-div">
+          <button class="follow">
+            Follow
+          </button>
+        </div>
+    </div>
+  </body>
+</html>
