@@ -2,7 +2,7 @@
 .friendsuggestion-box{
   margin: 10px;
   border: none;
-  width: 82 0px;
+  width: 820px;
   height: 1250px;
   box-shadow: 0 0 5px rgb(49, 49, 49);
   padding: 10px 10px;
@@ -56,11 +56,25 @@
   margin: 2px 0;
 }
 
+.mutual-div{
+  display: inline-block;
+  width: 100px;
+}
 .mutual{
   color: rgb(109, 109, 109);
   font-size: 11px;
   font-weight: normal;
-  margin-bottom: 5px
+}
+
+.mutualpf-div{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.mutualpf{
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
 }
 
 .add-btn{
