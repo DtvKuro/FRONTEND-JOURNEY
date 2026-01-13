@@ -17,14 +17,17 @@ p{
   font-size: 15px;
   border-radius: 30px;
   display: block;
-
 }
+
+.videoprev-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 50px;
+}
+
 .video {
-  width: 355px;
-  display: inline-block;
-  vertical-align: top;
   cursor: pointer;
-  margin-right: 15px;
 }
 .video:hover{
   background-color: rgb(189, 189, 189);
@@ -34,29 +37,23 @@ p{
 .video-thumb {
   width: 100%;
   border-radius: 6px;
-  display: block;
+  box-shadow: 0 0 5px rgb(75, 75, 75);
 }
 
 .video-meta {
-  width: 100%;
-  display: inline-block;
-  align-items: top;
-  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
-.channel-avatar {
-  width: 100%;
-  border-radius: 100%;
-}
 .channel-avatar-div{
-  display: inline-block;
-  vertical-align: top;
+  width: 100%;
+}
+.channel-avatar {
   width: 50px;
+  border-radius: 100%;
 }
 
 .video-info {
-  display: inline-block;
-  width: 70%;
   padding: 0 10px;
 }
 
