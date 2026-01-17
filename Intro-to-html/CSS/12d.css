@@ -1,0 +1,16 @@
+.div-rowgroup{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid gray;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div1{
+  background-color: lightpink;
+
+}
+.div2{
+  background-color: lightpink;
+}
