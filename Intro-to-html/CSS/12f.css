@@ -1,0 +1,35 @@
+*{margin: 0; font-family: Arial;}
+
+.div-header{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(156, 40, 202);
+  padding: 8px 10px;
+  margin: 5px 5px;
+}
+
+.home{
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+}
+.search{
+  
+  border-radius: 40px;
+  padding: 3px;
+  padding-left: 20px;
+  padding-right: 70px;
+  border: none;
+  width: 300px;
+  font-size: 14px;
+}
+.download{
+  border: 1px solid white;
+  background-color: rgb(156, 40, 202);
+  color: white;
+  padding: 5px 14px;
+  border-radius: 3px;
+}
