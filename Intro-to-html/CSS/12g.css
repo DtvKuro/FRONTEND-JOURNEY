@@ -1,28 +1,61 @@
-*{margin: 0;}
+*{margin: 0; font-family: Arial;}
 
 .div-recommendation{
+  display: flex;
+  flex-direction: column;
   box-shadow: 0 0 4px gray;
   padding: 10px 10px;
-  width: 200px;
+  width: 250px;
+  row-gap: 10px;
 }
 
 .person{
   display: flex;
   flex-direction: row;
   box-shadow: 0 0 5px grey;
-  width: 200px;
   align-items: center;
+  border-radius: 5px;
+  padding: 4px 7px;
+  justify-content: space-between;
+}
+.div-profile-info{
+  display: flex;
+}
+.div-info{
+  padding-left: 7px;
 }
 
+
 .profile{
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  border-radius:100%;
   object-fit: cover;
   object-position: center;
-  padding: 0 5px;
+}
+
+.name{
+  font-size: 13px;
+  font-weight: 600;
+}
+.user{
+  color: gray;
+  font-size: 13px;
+}
+.status{
+  font-size: 11px;
+  color: gray;
 }
 
 .follow{
-display: flex;
+  background-color: #6388ff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 3px 8px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.follow:hover{
+  opacity: 0.7;
 }
