@@ -1,0 +1,28 @@
+*{margin: 0;}
+
+.div-recommendation{
+  box-shadow: 0 0 4px gray;
+  padding: 10px 10px;
+  width: 200px;
+}
+
+.person{
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 0 5px grey;
+  width: 200px;
+  align-items: center;
+}
+
+.profile{
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: center;
+  padding: 0 5px;
+}
+
+.follow{
+display: flex;
+}
