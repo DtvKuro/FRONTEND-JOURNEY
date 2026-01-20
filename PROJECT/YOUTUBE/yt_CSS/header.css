@@ -1,8 +1,10 @@
 
-.search-btn {
+.search-bar {
   padding: 8px 14px;
   font-size: 15px;
   border-radius: 30px;
+  display: flex;
+  justify-content: stretch;
 }
 
 .header{
@@ -10,20 +12,38 @@
   flex-direction: row;
   height: 70px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .left-section{
-  background-color: lightblue;
-  width: 200px;
+  display: flex;
+  align-items: center;
 }
 .middle-section{
-  background-color: lightpink;
+  display: flex;
   flex: 1;
   margin-left: 200px;
   margin-right: 150px;
   max-width: 500px;
 }
 .right-section{
-  background-color: lightblue;
   width: 250px;
+}
+
+.menu{
+  height: 20px;
+  margin-left: 26px;
+  margin-right: 25px;
+}
+.yt_logo{
+  height: 20px;
+}
+
+.search{
+  height: 4cap;
+  width: 60px;
+}
+.voice-search{
+  height: 40px;
+  width: 60px;
 }
