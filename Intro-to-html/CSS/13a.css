@@ -1,0 +1,19 @@
+.div-container{
+  display: flex;
+}
+
+.one{
+  display: flex;
+  width: 100px;
+  background-color: lightpink;
+  justify-content: center;
+}
+.two{
+  width: 200px;
+  background-color: lightblue;
+  display: block;
+}
+.i1{
+  background-color: black;
+  color: white;
+}
