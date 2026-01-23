@@ -1,0 +1,29 @@
+
+
+.div-container{
+  display: flex;
+}
+.div-i{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.one{
+  display: flex;
+  width: 100px;
+  background-color: lightpink;
+}
+.two{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  background-color: lightblue;
+}
+.i1, .i2{
+  margin-top: 0;
+  background-color: black;
+  color: white;
+  display: inline-block;  
+}
