@@ -1,0 +1,61 @@
+*{font-family: Arial, Helvetica, sans-serif; margin: 0;}
+p{
+  margin-bottom: 1px;
+}
+.div-container{
+  margin: 10px 10px;
+  box-shadow: 0 0 2px gray;
+  width: 230px;
+}
+
+.div-inboxes{
+  width: 230px;
+  font-size: 11px;
+  padding: 4px 8px;
+  font-size: 9px;
+  color: rgb(80, 78, 78);
+}
+.div-inbox{
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  padding-bottom: 10px;
+}
+
+.div-profile{
+  display: flex;
+  align-items: center;
+}
+
+.profile{
+  object-fit: cover;
+  object-position: center;
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  padding: 0 6px;
+}
+
+.messages{
+  flex: 1;
+}
+
+.firstline{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bold-text{
+  font-weight: bold;
+  font-size: 10px;
+}
+.inbox-message{
+  font-size: 9px;
+  color: rgb(95, 94, 94);
+}
+.time{
+  font-size: 9px;
+  margin-right: 5px;
+  color: rgb(95, 94, 94);
+}
