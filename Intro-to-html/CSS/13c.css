@@ -1,0 +1,21 @@
+.div-inboxes{
+  background-color: lightpink;
+  width: 200px;
+  font-size: 11px;
+  padding: 5px 10px;
+}
+.div-inbox{
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+}
+.profile{
+  background-color: blue;
+  height: 100%;
+  width: 50px;
+}
+
+.messages{
+  background-color: lightblue;
+  width: 170px;
+}
