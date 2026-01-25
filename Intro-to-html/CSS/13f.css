@@ -1,0 +1,55 @@
+*{margin: 0;}
+
+.div-postcontainer{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  max-width: 500px;
+}
+
+.div-profile{
+  background-color: lightpink;
+  width: 35px;
+}
+
+.div-post{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+}
+
+.div-user{
+  background-color: lightblue;
+  padding: 5px;
+}
+
+.div-description{
+  background-color: rgb(231, 148, 160);
+  padding: 5px;
+}
+
+.div-ytlink{
+  margin-top: 2px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  background-color: gray;
+  gap: 5px;
+}
+
+.yt-thumbnail{
+  width: 50px;
+  background-color: aqua;
+  border-radius: 5px 0 0 5px;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+
+.yt-description{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  padding: 5px 10px;
+}
