@@ -19,6 +19,12 @@
   height: 70px;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom: 2px solid rgba(172, 172, 172, 0.541);
 }
 
 .left-section{
