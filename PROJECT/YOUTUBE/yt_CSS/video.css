@@ -1,8 +1,11 @@
+/*Videos preview CSS*/
+
 .videoprev-div{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 10px;
   row-gap: 50px;
+  padding-left: 130px;
 }
 
 .video {
