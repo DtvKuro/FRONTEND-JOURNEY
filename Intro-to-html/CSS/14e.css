@@ -6,26 +6,56 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 100px;
+  margin-left: 40px;
+  box-shadow: 0 0 4px black;
+  padding: 0 5px;
+  border-radius: 4px;
 }
 
 .pf-name{
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 10px;
 }
 
 .pf{
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   object-fit: cover;
   object-position: center;
   border-radius: 100%;
 }
 
 .name{
-  font-size: 17px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
-.div-button{
-  display: flex;
+button{
+  border: none;
+  border-radius: 6px;
+  height: 30px;
+  width: 80px;
+  font-size: 12px;
+  font-weight: bold;
+  transition: all 0.1s;
+  cursor: pointer;
+}
+
+.add-btn{
+  color: white;
+  background-color: rgb(98, 120, 245);
+}
+.add-btn:hover{
+  opacity: 0.6;
+}
+
+.msg-btn{
+  background-color: rgb(202, 202, 202);
+}
+
+.msg-btn:hover{
+  background-color: rgb(143, 143, 143);
 }
