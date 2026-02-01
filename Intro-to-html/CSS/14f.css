@@ -1,0 +1,82 @@
+*{font-family: Roboto Mono, sans-serifs; margin: 0; letter-spacing: -1px;}
+
+body{
+  display: flex;
+  flex-direction: row;
+}
+
+.div-serverprofile{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(28, 31, 34);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  align-items: center;
+  gap: 5px;
+  padding-top: 5px;
+}
+
+.div-serverchannel{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  bottom: 0;
+  left: 40px;
+  width: 120px;
+  background-color: rgb(42, 45, 49);
+  row-gap: 5px;
+}
+.serverprofile{
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100%;
+  border: 1px solid transparent; 
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.div-info{
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: grey;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.info{
+  color: white;
+  margin-bottom: 10px;
+}
+
+
+.plus, .channels{
+  cursor: pointer;
+  color: rgb(97, 97, 105);
+  transition: all 0.2s;
+}
+.plus:hover, .channels:hover{
+  color: rgb(156, 156, 156);
+}
+
+.channels{
+  font-size: 10px;
+  color: rgb(97, 97, 105);
+  font-weight: bold;
+}
+
+.div-info, .channels{
+  padding: 0 8px;
+}
+
+.serverprofile:hover{
+  border: 1px solid rgba(241, 241, 241, 0.329);
+  gap: 3px;
+  opacity: 0.7;
+}
