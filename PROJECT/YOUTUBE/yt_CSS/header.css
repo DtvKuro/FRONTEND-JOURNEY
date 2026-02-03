@@ -25,6 +25,7 @@
   right: 0;
   background-color: white;
   border-bottom: 2px solid rgba(172, 172, 172, 0.541);
+  z-index: 100;
 }
 
 .left-section{
@@ -69,31 +70,63 @@
 .voice-search{
   height: 40px;
   border: none;
-  background-color: rgb(240, 240, 240);
-  border-radius: 100%;
   margin-left: 6px;
   cursor: pointer;
+  background-color: white;
+}
+.voice-search:hover{
+  background-color: rgb(240, 240, 240);
+  border-radius: 100%;
 }
 
 .search-icon{
   height: 30px;
   margin-top: 2px;
 }
+
 .voice-search-icon{
   height: 30px;
   margin-top: 2px;
 }
-
 .upload{
   height: 30px;
   cursor: pointer;
+}
+.upload:hover{
+  background-color: rgb(230, 230, 230);
+  border-radius: 100%;
 }
 .yt-apps{
   height: 30px;
   cursor: pointer;
 }
+.yt-apps:hover{
+  background-color: rgb(230, 230, 230);
+  border-radius: 100%;
+}
+
 .notification{
   height: 30px;
+  cursor: pointer;
+}
+
+.div-notification{
+  position: relative;
+}
+.div-notification:hover{
+  background-color: rgb(230, 230, 230);
+  border-radius: 100%;
+}
+
+.div-notification-count{
+  background-color: red;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 100%;
+  padding: 1px 3px;
+  font-size: 11px;
   cursor: pointer;
 }
 
