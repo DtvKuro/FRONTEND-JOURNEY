@@ -21,6 +21,11 @@
         <img class="menu" src="yt_images/hamburger-menu.svg">
         <img class="yt_logo" src="yt_images/youtube.svg">
       </div>
+
+      <! (Middle section, Right Section)
+      wrap all buttons in div in order to increase range of
+      the background color when hovered  -->
+
       <div class="middle-section">
         <input class="search-bar" type="text" placeholder="Search" />
         <button class="search">
@@ -33,7 +38,10 @@
       <div class="right-section">
         <img class="upload" src="yt_images/upload.svg">
         <img class="yt-apps" src="yt_images/youtube-apps.svg">
-        <img class="notification" src="yt_images/notifications.svg">
+        <div class="div-notification">
+          <img class="notification" src="yt_images/notifications.svg">
+          <div class="div-notification-count">9+</div>
+        </div>
         <img class="profile" src="yt_profile/profile.jpg">
       </div>
     </div>
@@ -41,102 +49,122 @@
     <div class="sidebar">
       .
     </div>
+<div class="div-videogrid">
+  <div class="div-video">
+    <div class="div-thumbnail">
+      <img class="videothumbnail" src="yt_thumbnail/3.webp" />
+      <div class="div-time">19:56</div>
+    </div>
 
-    <div class="videoprev-div">
-      <div class="video">
-        <img class="video-thumb" src="yt_thumbnail/3.webp" />
-
-        <div class="video-meta">
-          <div class="channel-avatar-div">
-            <img class="channel-avatar" src="yt_profile/pf3.jpg" />
-          </div>
-          <div class="video-info">
-            <p class="video-title">
-              KadaCraft 7: Episode 19 - Mega Resource Gathering
-            </p>
-            <p class="video-creator">SlyTheMiner</p>
-            <p class="video-stats">117k &#xb7; 3 weeks ago</p>
-          </div>
-        </div>
+    <div class="div-videoinfo">
+      <div class="div-channelavatar">
+        <img class="channel-avatar" src="yt_profile/pf3.jpg" />
       </div>
-      <div class="video">
-        <img class="video-thumb" src="yt_thumbnail/4.webp" />
-
-        <div class="video-meta">
-          <div class="channel-avatar-div">
-            <img class="channel-avatar" src="yt_profile/pf4.jpg" />
-          </div>
-          <div class="video-info">
-            <p class="video-title">
-              If you are ambitious (in tech) and in your 20s or 30s, watch this
-            </p>
-            <p class="video-creator">Philip Choi</p>
-            <p class="video-stats">465k views &#xb7; 3 months ago</p>
-          </div>
-        </div>
-      </div>
-      <div class="video">
-        <img class="video-thumb" src="yt_thumbnail/1.webp" />
-
-        <div class="video-meta">
-          <div class="channel-avatar-div">
-            <img class="channel-avatar" src="yt_profile/pf1.jpg" />
-          </div>
-          <div class="video-info">
-            <p class="video-title">
-              17yo dev builds INSANE portfolio - roasting your portfolios #9
-            </p>
-            <p class="video-creator">Anthony Sistilli</p>
-            <p class="video-stats">104k views &#xb7; 5 months ago</p>
-          </div>
-        </div>
-      </div>
-      <div class="video">
-        <img class="video-thumb" src="yt_thumbnail/2.webp" />
-
-        <div class="video-meta">
-          <div class="channel-avatar-div">
-            <img class="channel-avatar" src="yt_profile/pf2.jpg" />
-          </div>
-          <div class="video-info">
-            <p class="video-title">
-              AI 2027: A Realistic Scenario of AI Takeover
-            </p>
-            <p class="video-creator">Anthony Sistilli</p>
-            <p class="video-stats">104k views &#xb7; 5 months ago</p>
-          </div>
-        </div>
-      </div>
-      <div class="video">
-        <img class="video-thumb" src="yt_thumbnail/5.webp" />
-
-        <div class="video-meta">
-          <div class="channel-avatar-div">
-            <img class="channel-avatar" src="yt_profile/pf5.jpg" />
-          </div>
-          <div class="video-info">
-            <p class="video-title">
-              How to ACTUALLY Learn Hacking in 2026 (VERY SPECIFIC)
-            </p>
-            <p class="video-creator">CyberFlow</p>
-            <p class="video-stats">97k views &#xb7; 3 days ago</p>
-          </div>
-        </div>
-      </div>
-      <div class="video">
-        <img class="video-thumb" src="yt_thumbnail/6.webp" />
-
-        <div class="video-meta">
-          <div class="channel-avatar-div">
-            <img class="channel-avatar" src="yt_profile/pf6.jpg" />
-          </div>
-          <div class="video-info">
-            <p class="video-title">MEYTINPAYB</p>
-            <p class="video-creator">Cong Tv</p>
-            <p class="video-stats">3.5M views &#xb7; 7 months ago</p>
-          </div>
-        </div>
+      <div class="div-videotext">
+        <p class="video-title">
+          KadaCraft 7: Episode 19 - Mega Resource Gathering
+        </p>
+        <p class="video-creator">SlyTheMiner</p>
+        <p class="video-stats">117k &#xb7; 3 weeks ago</p>
       </div>
     </div>
-  </body>
-</html>
+  </div>
+
+  <div class="div-video">
+    <div class="div-thumbnail">
+      <img class="videothumbnail" src="yt_thumbnail/4.webp" />
+      <div class="div-time">14:43</div>    
+    </div>
+
+    <div class="div-videoinfo">
+      <div class="div-channelavatar">
+        <img class="channel-avatar" src="yt_profile/pf4.jpg" />
+      </div>
+      <div class="div-videotext">
+        <p class="video-title">
+          If you are ambitious (in tech) and in your 20s or 30s, watch this
+        </p>
+        <p class="video-creator">Philip Choi</p>
+        <p class="video-stats">465k views &#xb7; 3 months ago</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="div-video">
+    <div class="div-thumbnail">
+      <img class="videothumbnail" src="yt_thumbnail/1.webp" />
+      <div class="div-time">18:36</div>
+    </div>
+
+    <div class="div-videoinfo">
+      <div class="div-channelavatar">
+        <img class="channel-avatar" src="yt_profile/pf1.jpg" />
+      </div>
+      <div class="div-videotext">
+        <p class="video-title">
+          17yo dev builds INSANE portfolio - roasting your portfolios #9
+        </p>
+        <p class="video-creator">Anthony Sistilli</p>
+        <p class="video-stats">104k views &#xb7; 5 months ago</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="div-video">
+    <div class="div-thumbnail">
+      <img class="videothumbnail" src="yt_thumbnail/2.webp" />
+      <div class="div-time">37:45</div>    
+    </div>
+
+    <div class="div-videoinfo">
+      <div class="div-channelavatar">
+        <img class="channel-avatar" src="yt_profile/pf2.jpg" />
+      </div>
+      <div class="div-videotext">
+        <p class="video-title">
+          AI 2027: A Realistic Scenario of AI Takeover
+        </p>
+        <p class="video-creator">Anthony Sistilli</p>
+        <p class="video-stats">104k views &#xb7; 5 months ago</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="div-video">
+    <div class="div-thumbnail">
+      <img class="videothumbnail" src="yt_thumbnail/5.webp" />
+      <div class="div-time">10:09</div>    
+    </div>
+
+    <div class="div-videoinfo">
+      <div class="div-channelavatar">
+        <img class="channel-avatar" src="yt_profile/pf5.jpg" />
+      </div>
+      <div class="div-videotext">
+        <p class="video-title">
+          How to ACTUALLY Learn Hacking in 2026 (VERY SPECIFIC)
+        </p>
+        <p class="video-creator">CyberFlow</p>
+        <p class="video-stats">97k views &#xb7; 3 days ago</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="div-video">
+    <div class="div-thumbnail">
+      <img class="videothumbnail" src="yt_thumbnail/6.webp" />
+      <div class="div-time">30:20</div>    
+    </div>
+
+    <div class="div-videoinfo">
+      <div class="div-channelavatar">
+        <img class="channel-avatar" src="yt_profile/pf6.jpg" />
+      </div>
+      <div class="div-videotext">
+        <p class="video-title">MEYTINPAYB</p>
+        <p class="video-creator">Cong Tv</p>
+        <p class="video-stats">3.5M views &#xb7; 7 months ago</p>
+      </div>
+    </div>
+  </div>
+</div>
