@@ -1,6 +1,6 @@
-/*Videos preview CSS*/
+/* Videos preview CSS */
 
-.videoprev-div{
+.div-videogrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 10px;
@@ -8,34 +8,38 @@
   padding-left: 130px;
 }
 
-.video {
+.div-video {
   cursor: pointer;
+  padding: 10px 10px;
+  transition: all 0.3s;
 }
-.video:hover{
+
+.div-video:hover {
   background-color: rgb(189, 189, 189);
   border-radius: 4px;
 }
 
-.video-thumb {
+.videothumbnail {
   width: 100%;
   border-radius: 6px;
   box-shadow: 0 0 5px rgb(75, 75, 75);
 }
 
-.video-meta {
+.div-videoinfo {
   display: grid;
   grid-template-columns: 50px 1fr;
 }
 
-.channel-avatar-div{
+.div-channelavatar {
   width: 100%;
 }
+
 .channel-avatar {
   width: 50px;
   border-radius: 100%;
 }
 
-.video-info {
+.div-videotext {
   padding: 0 10px;
 }
 
@@ -51,4 +55,19 @@
   margin: 0;
   color: #555;
   font-size: 14px;
+}
+
+
+.div-thumbnail{
+  position: relative;
+}
+.div-time{
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+  padding: 2px 4px;
+  font-size: 13px;
+  border-radius: 3px;
 }
