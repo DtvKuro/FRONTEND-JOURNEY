@@ -1,0 +1,30 @@
+.div-fixed{
+  position: relative;
+  width: 100px;
+  height: 67px;
+  background-color: gray;
+  top: 10px;
+
+}
+
+.close{
+  font-family: Arial;;
+  display: flex;
+  position: absolute;
+  background-color: black;
+  color: white;
+  height: 15px;
+  width: 15px;
+  font-size: 9px;
+  border-radius: 100%;
+  text-align: center;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  top: -6px;
+  left: -6px;
+}
+
+.close:hover{
+  opacity: 0.6;
+}

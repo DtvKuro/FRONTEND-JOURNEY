@@ -1,0 +1,36 @@
+.div-image{
+  display: inline-block;
+  position: relative;
+  padding: 10px 10px;
+  background-color: rgb(151, 151, 151);
+}
+
+.image{
+  box-shadow: 0 0 5px black;
+  border-radius: 5px;
+  height: 300px;
+  cursor: pointer;
+}
+.div-sale{
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  background-color: black;
+  color: white;
+  padding: 5px 5px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cart{
+  transpare
+  position: absolute;
+
+
+  bottom: 50px;
+  right: 120px;
+}
+
+.cart:hover{
+  display: flex;
+}
