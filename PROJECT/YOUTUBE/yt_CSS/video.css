@@ -1,11 +1,15 @@
 /* Videos preview CSS */
 
+body
+{
+  background-color: rgb(245, 245, 245);
+}
 .div-videogrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 10px;
   row-gap: 50px;
-  padding-left: 130px;
+  padding-left: 100px;
 }
 
 .div-video {
@@ -23,6 +27,7 @@
   width: 100%;
   border-radius: 6px;
   box-shadow: 0 0 5px rgb(75, 75, 75);
+  margin-bottom: 4px;
 }
 
 .div-videoinfo {
@@ -35,7 +40,7 @@
 }
 
 .channel-avatar {
-  width: 50px;
+  width: 45px;
   border-radius: 100%;
 }
 
