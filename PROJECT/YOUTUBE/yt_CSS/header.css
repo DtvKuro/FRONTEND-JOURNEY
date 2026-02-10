@@ -170,3 +170,8 @@
   margin-right: 27px;
   cursor: pointer;
 }
+
+.ytlink{
+  text-decoration: none;
+  color: black;
+}
