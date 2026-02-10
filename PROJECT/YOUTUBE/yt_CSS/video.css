@@ -11,6 +11,37 @@ body
   row-gap: 50px;
   padding-left: 100px;
 }
+@media (max-width:900px)
+{
+  .div-videogrid 
+  {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width:600px)
+{
+  .div-videogrid 
+  {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width:1400px)
+{
+  .div-videogrid 
+  {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width:1750px)
+{
+  .div-videogrid 
+  {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+
 
 .div-video {
   cursor: pointer;
