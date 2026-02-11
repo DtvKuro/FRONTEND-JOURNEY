@@ -1,0 +1,10 @@
+Inspect>console
+
+alert('hello');
+
+document.body.innerHTML = 'hello';
+
+MATHS
+
+PEMDAS // Order of operations
+Math.round();
